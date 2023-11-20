@@ -1,0 +1,91 @@
+/* Simple */
+#MBL_fanpageslider_box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #ccc;
+    bottom: -500px;
+    position: fixed;
+    right: 30px;
+    min-height:140px;
+    z-index: 900000;
+    width: 320px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-bottom: 11px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.45);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.45);
+    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.45);
+}
+
+#MBL_fanpageslider_box_mid{
+    padding:10px;
+    
+}
+
+#MBL_fanpageslider_box_head {
+    line-height: 0px;
+    padding: 3px;
+    background: #F3F3F3;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.MBL_fanpageslider_customtext {
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#MBL_fanpageslider_box img.MBL_fps_close:hover {
+    background: #DADADA;
+}
+#MBL_fanpageslider_box img.MBL_fps_close {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.MBL_ani_handel_simple.MBL_ani_bl,
+.MBL_ani_handel_simple.MBL_ani_bls,
+.MBL_ani_handel_simple.MBL_ani_br,
+.MBL_ani_handel_simple.MBL_ani_brs{
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.MBL_ani_handel_simple.MBL_ani_bl #MBL_fanpageslider_box_head,
+.MBL_ani_handel_simple.MBL_ani_sl #MBL_fanpageslider_box_head,
+.MBL_ani_handel_simple.MBL_ani_bls #MBL_fanpageslider_box_head,
+.MBL_ani_handel_simple.MBL_ani_sls #MBL_fanpageslider_box_head{
+    text-align: right;
+}
+
+.MBL_ani_handel_simple.MBL_ani_sl,
+.MBL_ani_handel_simple.MBL_ani_sls,
+.MBL_ani_handel_simple.MBL_ani_sl #MBL_fanpageslider_box_head,
+.MBL_ani_handel_simple.MBL_ani_sls #MBL_fanpageslider_box_head{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.MBL_ani_handel_simple.MBL_ani_sr,
+.MBL_ani_handel_simple.MBL_ani_srs,
+.MBL_ani_handel_simple.MBL_ani_sr #MBL_fanpageslider_box_head,
+.MBL_ani_handel_simple.MBL_ani_srs #MBL_fanpageslider_box_head{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
